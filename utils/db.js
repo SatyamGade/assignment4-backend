@@ -4,7 +4,7 @@ const URL = "mongodb+srv://satyam:satya4426@cluster0.immfakx.mongodb.net/blackCo
 
 const connectDB = async ()=>{
     try {
-        await mongoose.connect(URI);
+        await mongoose.connect(URL);
         console.log("Database Connection Success...");
     } catch (error) {
         console.log("Database Connection Failed...");
