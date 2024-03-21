@@ -6,11 +6,11 @@ const connectDB = require("./utils/db");
 const dashboard = require("./routes/dashboard")
 const errorMiddleware = require("./middlewares/errorMiddleware");
 
-const corsOptions = {
-    origin: "https://assignment4-frontend.vercel.app/",
-    methods: ["GET"],
-    credentials: true
-}
+// const corsOptions = {
+//     origin: "https://assignment4-frontend.vercel.app/",
+//     methods: ["GET"],
+//     credentials: true
+// }
 
 app.use(cors());
 app.use(express.json());
